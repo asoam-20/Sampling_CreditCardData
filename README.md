@@ -1,5 +1,5 @@
 
-##  Project Overview
+##  Project Aim
 The objective of this project is to understand the importance of sampling techniques in handling imbalanced datasets.Credit card datasets are typically highly imbalanced, which can significantly skew model performance.This project involves balancing the dataset, applying five different sampling strategies, and evaluating their impact on five distinct machine learning models.
 
 ##  Methodology
