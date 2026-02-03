@@ -1,12 +1,12 @@
 
 ##  Project Overview
-[cite_start]The objective of this project is to understand the importance of sampling techniques in handling imbalanced datasets[cite: 9]. [cite_start]Credit card datasets are typically highly imbalanced, which can significantly skew model performance[cite: 11]. [cite_start]This project involves balancing the dataset, applying five different sampling strategies, and evaluating their impact on five distinct machine learning models[cite: 12].
+The objective of this project is to understand the importance of sampling techniques in handling imbalanced datasets.Credit card datasets are typically highly imbalanced, which can significantly skew model performance.This project involves balancing the dataset, applying five different sampling strategies, and evaluating their impact on five distinct machine learning models.
 
 ##  Methodology
-1. [cite_start]**Data Acquisition**: Downloaded the credit card dataset provided in the assignment[cite: 15, 16].
-2. [cite_start]**Class Balancing**: Converted the imbalanced data into a balanced class dataset to ensure fair training[cite: 17].
-3. [cite_start]**Sampling Implementation**: Created five samples using techniques taught in class: Simple Random, Systematic, Stratified, Cluster, and Bootstrap[cite: 18, 19].
-4. [cite_start]**Model Evaluation**: Applied five different ML models (M1-M5) to each sample and recorded the accuracy[cite: 20].
+1. **Data Acquisition**: Downloaded the credit card dataset provided in the assignment.
+2. **Class Balancing**: Converted the imbalanced data into a balanced class dataset to ensure fair training.
+3. **Sampling Implementation**: Created five samples using techniques taught in class: Simple Random, Systematic, Stratified, Cluster, and Bootstrap.
+4. **Model Evaluation**: Applied five different ML models (M1-M5) to each sample and recorded the accuracy.
 
 
 
@@ -25,5 +25,5 @@ Based on the implementation, the following accuracy scores were obtained:
 * **Top Performer**: **Random Forest (M3)** demonstrated the highest consistency, achieving 100% accuracy in three out of five sampling scenarios.
 * **Cluster Sampling Impact**: **Sampling 4 (Cluster Sampling)** yielded the best results for **Decision Tree** and **KNN** models, showing that grouping-based selection can capture representative patterns effectively for these algorithms.
 * **Model Sensitivity**: **SVM (M4)** was the most sensitive to the sampling method, showing a significant performance boost with **Systematic Sampling** compared to others.
-* [cite_start]**Conclusion**: Balancing the dataset is a critical first step; however, the choice of sampling technique significantly influences the final predictive accuracy depending on the model architecture used[cite: 9, 22].
+* **Conclusion**: Balancing the dataset is a critical first step; however, the choice of sampling technique significantly influences the final predictive accuracy depending on the model architecture used.
 
